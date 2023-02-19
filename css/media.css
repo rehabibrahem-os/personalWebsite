@@ -1,0 +1,75 @@
+/*extra small*/
+
+@media  only screen and ( max-width : 575px) {
+
+}
+
+/*  small*/
+
+@media only screen and (max-width : 600px) {
+    .li1{
+        margin-left: 25px;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgg{
+        width: 25%;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+       
+    }
+   .father{
+    display: none;
+   }
+   .nn{
+    width: 100px;
+    height: 60px;
+   }
+    .textt{
+    width: 100%;
+}
+.img2{
+    visibility: hidden;
+}
+ }
+ 
+ /*medium*/
+
+@media only screen and ( min-width :760px) {
+    .img{
+ 
+    } 
+ }
+ /*large*/
+
+@media only screen and ( min-width :992px) {
+    .img{
+ 
+    } 
+ }
+ /*extra large*/
+
+@media only screen and ( max-width : 1200px) {
+    .img{
+ 
+    }
+    .card{
+        margin-top: 10px;
+    } 
+ }
